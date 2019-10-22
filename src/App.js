@@ -1,5 +1,6 @@
 import React from 'react';
 import TopNav from './components/TopNav/TopNav'
+import BottomNav from './components/BottomNav/BottomNav'
 import './App.css';
 
 function App() {

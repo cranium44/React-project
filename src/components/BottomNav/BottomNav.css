@@ -1,0 +1,27 @@
+.bottom_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #ff4252;
+    text-align: center;
+}
+
+.navbar{
+    width: 80%;
+    margin: 0 auto
+}
+
+.nav_links{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.nav_link{
+    display: inline;
+}
