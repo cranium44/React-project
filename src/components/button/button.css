@@ -1,0 +1,67 @@
+.btn{
+    height:46px;
+    width: 150px;
+    padding: 16px;
+    border-radius: 4px;
+    opacity: 1;
+    border: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.btn-lg{
+    height:60px;
+    width: 171px;
+}
+
+.btn-solid-green{
+    background-color: rgba(10, 208, 10, 1);
+}
+
+.btn-solid-green:hover{
+    background-color: rgba(7, 193, 7, 1);
+    cursor: pointer;
+}
+
+
+.btn-solid-pink{
+    background-color: rgba(255, 72, 88, 1);
+}
+
+.btn-solid-pink:hover{
+    background-color: rgba(245, 56, 72, 1);
+    cursor: pointer;
+}
+
+.btn-solid-blue{
+    background-color: rgba(51, 160, 255, 1);
+}
+
+.btn-solid-blue:hover{
+    background-color: rgba(46, 144, 229, 1);
+    cursor: pointer;
+}
+
+.btn-solid-gold{
+    background-color: rgba(255, 198, 0, 1);
+}
+
+.btn-solid-gold:hover{
+    background-color: rgba(235, 182, 0, 1);
+    cursor: pointer;
+}
+
+.btn-solid-black{
+    background-color: rgba(34, 38, 42, 1);
+}
+
+.btn-solid-black:hover{
+    background-color: rgba(19, 22, 26, 1);
+    cursor: pointer;
+}
+
+.btn-outline-green{
+    border: 1px solid rgba(10, 208, 10, 1);
+    color: rgba(10, 208, 10, 1);
+    background: none;
+}
