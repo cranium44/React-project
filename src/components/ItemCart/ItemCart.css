@@ -1,0 +1,12 @@
+.div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+}
+
+.price{
+    color: #c1c2ca;
+}
+

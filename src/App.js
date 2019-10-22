@@ -1,11 +1,14 @@
 import React from 'react';
-import Button from './components/button/button'
+import TopNav from './components/TopNav/TopNav'
 import './App.css';
 
 function App() {
   return (
     <React.Fragment>
-      <Button />
+      <div className="container">
+        <TopNav />
+        <BottomNav />
+      </div>
     </React.Fragment>
   );
 }
