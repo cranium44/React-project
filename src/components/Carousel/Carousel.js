@@ -1,48 +1,39 @@
 import React from "react";
 import Iphone from "../../../src/images/iphone.png";
-import { currentSlide, plusSlides} from '../../script'
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/main.css";
 import "./Carousel.css";
 
-const Carousel = () => {
+const CarouselB = () => {
   return (
-    <div>
-      <div className="carousel">
-        <div className="slideshow-container">
-          <div className="mySlides mySlides_none fade">
-            <div className="numbertext">1 / 3</div>
-            <img src={Iphone} />
-            <div className="text">Caption Text</div>
+    <div className="carousel">
+      <div className="carousel_wrapper">
+        <Carousel
+          showArrows={true}
+          autoPlay={true}
+          infiniteLoop={true}
+          width={"1139px"}
+          showThumbs={false}
+          stopOnHover={true}
+          dynamicHeight={true}
+        >
+          <div className="carousel_item">
+            <img src={Iphone} alt="iphone" />
+            <p className="legend">Legend 1</p>
           </div>
-
-          <div className="mySlides mySlides_none fade">
-            <div className="numbertext">2 / 3</div>
-            <img src={Iphone} />
-            <div className="text">Caption Two</div>
+          <div className="carousel_item">
+            <img src={Iphone} alt="iphone" />
+            <p className="legend">Legend 2</p>
           </div>
-
-          <div className="mySlides mySlides_none fade">
-            <div className="numbertext">3 / 3</div>
-            <img src={Iphone} />
-            <div className="text">Caption Three</div>
+          <div className="carousel_item">
+            <img src={Iphone} alt="iphone" />
+            <p className="legend">Legend 3</p>
           </div>
-
-          <a className="prev" onClick={plusSlides(-1)}>
-            &#10094;
-          </a>
-          <a className="next" onClick={plusSlides(1)}>
-            &#10095;
-          </a>
-        </div>
-        <br />
-
-        <div className="dots">
-          <span className="dot" onClick={currentSlide(1)}></span>
-          <span className="dot" onClick={currentSlide(2)}></span>
-          <span className="dot" onClick={currentSlide(3)}></span>
-        </div>
+        </Carousel>
       </div>
     </div>
   );
 };
 
-export default Carousel;
+export default CarouselB;

@@ -20,7 +20,7 @@ const TopNav = ()=>{
                     </div>
                     <div className="profile">
                         <div className="profile_content">
-                            <i class="fa fa-user" aria-hidden="true"></i>
+                            <i className="fa fa-user" aria-hidden="true"></i>
                             <span>My Profile</span>
                         </div>
                         <ItemCart />
