@@ -2,5 +2,34 @@
     margin: 0 auto;
     display: flex;
     flex-direction: row;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
+}
+
+.banner_item_1{
+    display: flex;
+    color: white;
+    background-color: #ff6875;
+}
+
+.banner_item_2{
+    background-color: #f1f2f4;
+}
+
+.banner_item_3{
+    background-color: #c1c8ce;
+}
+
+.block{
+    display: block;
+}
+
+.banner_item_1_text{
+    padding:20px;
+    width: 300px;
+}
+
+.banner_image_first{
+    position: relative;
+    left:55px;
 }

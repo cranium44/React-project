@@ -17,6 +17,7 @@ const CarouselB = () => {
           showThumbs={false}
           stopOnHover={true}
           dynamicHeight={true}
+          
         >
           <div className="carousel_item">
             <img src={Iphone} alt="iphone" />
