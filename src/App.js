@@ -3,7 +3,7 @@ import TopNav from "./components/TopNav/TopNav";
 import BottomNav from "./components/BottomNav/BottomNav";
 import Banner from "./components/Banner/Banner";
 import Button from './components/button/button';
-import IphoneBanner from './components/IphoneBanner/IphoneBanner'
+import Info from './components/info/Info'
 import "./App.css";
 import FourColGrid from "./components/FourColGrid/FourColGrid";
 
@@ -29,7 +29,7 @@ function App() {
         <Button class="btn btn-solid-blue" text="Load More" />
       </div>
       <div className="row">
-      
+       
       </div>
     </React.Fragment>
   );
