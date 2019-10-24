@@ -5,6 +5,7 @@ import Banner from "./components/Banner/Banner";
 import Button from './components/button/button';
 import News from './components/News/News'
 import "./App.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import FourColGrid from "./components/FourColGrid/FourColGrid";
 
 function App() {
