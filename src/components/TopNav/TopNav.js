@@ -7,7 +7,7 @@ const TopNav = ()=>{
     return(
         <>
             <div className="row">
-                <div className="nav">
+                <div className="nav col-12">
                     <div className="nav_info">
                         <select name="language" id="language">
                             <option value="english">EN</option>
@@ -18,7 +18,7 @@ const TopNav = ()=>{
                             <option value="naira">NGN</option>
                         </select>
                     </div>
-                    <div className="profile">
+                    <div className="profile col-3">
                         <div className="profile_content">
                             <i className="fa fa-user" aria-hidden="true"></i>
                             <span>My Profile</span>

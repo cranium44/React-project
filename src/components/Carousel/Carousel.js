@@ -7,7 +7,7 @@ import "./Carousel.css";
 
 const CarouselB = () => {
   return (
-    <div className="carousel">
+    <div className="carousel col-12">
       <div className="carousel_wrapper">
         <Carousel
           showArrows={true}

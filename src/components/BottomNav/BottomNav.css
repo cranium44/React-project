@@ -25,3 +25,19 @@ h1{
 .nav_link{
     display: inline;
 }
+
+@media only screen and  (max-width: 768px){
+    .nav_links{
+        display: block;
+    }
+
+    .navbar{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .nav_link{
+        display: block;
+    }
+}
