@@ -1,0 +1,35 @@
+.iphone_banner {
+  background: #2e90e5 0% 0% no-repeat padding-box;
+  opacity: 1;
+  width: 100%;
+}
+
+.iphone_banner_container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.iphone_banner_text_container{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.large_text{
+    font-size: 66px;
+}
+
+.more_link{
+    border-bottom: 2px white solid;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px;
+}
+
+

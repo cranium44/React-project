@@ -1,0 +1,22 @@
+.contact_info_contents{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact_info{
+    display: flex;
+}
+
+.contact_info_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px
+}
+
+.info_content_text p{
+    text-align: center;
+}

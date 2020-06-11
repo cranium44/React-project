@@ -1,0 +1,18 @@
+.carousel{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, #ff4252 ,#8f65ff);
+}
+
+.carousel_wrapper{
+    margin: 0 auto;
+}
+
+.carousel_item{
+    background: none;
+}
+
+.carousel_item img{
+    background: none;
+}

@@ -1,0 +1,45 @@
+.prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.oldprice {
+  text-decoration: line-through;
+  letter-spacing: 0.4px;
+  color: #c1c8ce;
+  margin: 5px;
+}
+
+.newprice {
+  letter-spacing: 0.4px;
+  color: #ff4858;
+  margin: 5px;
+}
+
+.price{
+    color: #c1c2ca;
+}
+
+.grey{
+    color: #c1c8ce;
+}
+
+.yellow{
+    color: #FFC600
+}
+
+.cardthumb_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cardthumb{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

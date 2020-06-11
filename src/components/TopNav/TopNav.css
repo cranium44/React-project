@@ -1,0 +1,24 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    padding: 10px;
+}
+
+select{
+    border: none;
+    color: #22262a;
+    margin-right: 10px;
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_content i{
+    margin-right: 6px;
+}
